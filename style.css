@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
 
 :root {
     --bg-color: #ffffff;
@@ -86,7 +86,7 @@ body {
 
 .flex-child {
     /* border: 1px blue solid; */
-    font-weight: bolder;
+    font-weight: 700;
     border-radius: 2px;
     background-color: var(--box-color);
     color: #023047;
