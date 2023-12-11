@@ -26,6 +26,7 @@ body {
 .guides-container {
     height: 932px;
     width: 430px;
+    padding: 0 1.75rem;
     margin-top: 0.5rem;
     background-color: var(--bg-color);
 }
@@ -47,6 +48,43 @@ body {
 
 .guide-title.glow {
     position: absolute;
+    font-size: calc(4rem + 0.5px);
     filter: blur(2px);
-    opacity: 78%;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 78%;
+    }
+}
+
+.flex-items-container {
+    width: 100%;
+    min-height: 98px;
+    padding: 0.75rem 0;
+    border: 1px dashed var(--primary);
+    resize: horizontal;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.flex-items {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    font-size: 2.25rem;
+    background-color: var(--primary);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
