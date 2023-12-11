@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+:root {
+    --bg-color: #ffffff;
+    --box-color: #ffb703;
+    --border-color: #e5e5e5;
+}
+
+html {
+    font-family: 'Source Code Pro', monospace;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-flex-wrap {
+    border: 3px var(--border-color) solid;
+    border-radius: 5px;
+    background: var(--bg-color);
+    height: 480px;
+    width: 270px;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.title-container {
+    height: 70px;
+    width: 100%;
+}
+
+.fixed-flex-container {
+    /* border: 1px black solid; */
+    height: 410px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.items {
+    /* border: 1px cyan solid; */
+    height: 136px;
+}
+
+.flex-container {
+    /* border: 2px var(--border-color) solid; */
+    background-color: #023047;
+    border-radius: 5px;
+    padding: 0.25rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    animation: shrinkScreen 3s ease-in-out alternate infinite;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap-reversed {
+    flex-wrap: wrap-reverse;
+}
+
+@keyframes shrinkScreen {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+.flex-child {
+    /* border: 1px blue solid; */
+    font-weight: 700;
+    border-radius: 2px;
+    background-color: var(--box-color);
+    color: #023047;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
