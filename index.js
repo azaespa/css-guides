@@ -1,4 +1,4 @@
-const flexWrap = document.querySelector("#flexWrap");
+const flexWrap = document.querySelector("#flexWrapValue");
 const flexItemsContainer = document.querySelector(".flex-items-container");
 
 flexWrap.addEventListener("keypress", (event) => {

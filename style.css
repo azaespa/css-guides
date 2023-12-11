@@ -110,6 +110,24 @@ body {
     padding: 0 1rem 1rem;
 }
 
+.css-code > :not(#flexWrapProp) {
+    /* opacity: 85%; */
+    /* animation: fade 3s ease-in-out infinite alternate; */
+}
+
+@keyframes fade {
+    from {
+        opacity: 70%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+
 .css-code-selector {
     color: #73A6A9;
 }
@@ -154,3 +172,4 @@ body {
     justify-content: center;
     align-items: center;
 }
+
