@@ -72,12 +72,59 @@ body {
     
     font-size: 0.9rem;
     color: white;
-    width: 251px;
-    height: 188px;
+    min-width: 251px;
+    max-height: 188px;
     margin: 1.25rem;
     background-color: #3F3F3F;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+}
+
+.css-code-header {
+    width: 100%;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.css-code-header > div{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+}
+
+.css-code-menu-red {
+    background-color: #FF5F56;
+}
+
+.css-code-menu-yellow {
+    background-color: #FFBD2E;
+}
+
+.css-code-menu-green {
+    background-color: #27C93F;
+}
+
+.css-code {
+    padding: 0 1rem 1rem;
+}
+
+.css-code-selector {
+    color: #73A6A9;
+}
+
+.css-code-property {
+    margin-left: 2rem;
+    color: #D3A789;
+}
+
+.css-code-property-value {
+    color: #B5DDB5;
+}
+
+.css-code-bracket, .css-code-semicolon, .css-code-colon {
+    color: #ffffff;
 }
 
 .flex-items-container {
