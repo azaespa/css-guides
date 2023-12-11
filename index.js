@@ -1,5 +1,6 @@
 const flexWrap = document.querySelector("#flexWrapValue");
 const flexItemsContainer = document.querySelector(".flex-items-container");
+const typingSim = document.querySelector(".typing-simulator");
 
 flexWrap.addEventListener("keypress", (event) => {
     if (event.key == "Enter") {

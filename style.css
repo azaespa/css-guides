@@ -31,6 +31,7 @@ body {
     margin-top: 0.5rem;
     background-color: var(--bg-color);
 
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,20 +111,6 @@ body {
     padding: 0 1rem 1rem;
 }
 
-.css-code > :not(#flexWrapProp) {
-    /* opacity: 85%; */
-    /* animation: fade 3s ease-in-out infinite alternate; */
-}
-
-@keyframes fade {
-    from {
-        opacity: 70%;
-    }
-    to {
-        opacity: 100%;
-    }
-}
-
 [contenteditable] {
     outline: 0px solid transparent;
 }
@@ -172,4 +159,3 @@ body {
     justify-content: center;
     align-items: center;
 }
-
