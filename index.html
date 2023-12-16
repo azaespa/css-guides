@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="guides-container">
+    <div class="guides-container" id="guidesFlexWrap">
         <div class="guide-title-container">
             <h1 class="guide-title">FLEX-WRAP</h1>
             <h1 class="guide-title glow">FLEX-WRAP</h1>
@@ -49,7 +49,53 @@
                 <span class="css-code-bracket">}</span>
             </div>
         </div>
-        <div class="flex-items-container">
+        <div class="flex-items-container" id="itemsFlexWrap">
+            <div class="flex-items">🍕</div>
+            <div class="flex-items">🍔</div>
+            <div class="flex-items">🍟</div>
+            <div class="flex-items">🌭</div>
+        </div>
+    </div>
+    <div class="guides-container" id="guidesFlexDirection">
+        <div class="guide-title-container">
+            <h1 class="guide-title">FLEX-DIRECTION</h1>
+            <h1 class="guide-title glow">FLEX-DIRECTION</h1>
+        </div>
+        <div class="css-code-container">
+            <div class="css-code-header">
+                <div class="css-code-menu-red"></div>
+                <div class="css-code-menu-yellow"></div>
+                <div class="css-code-menu-green"></div>
+            </div>
+            <div class="css-code">
+                <p class="css-code-selector">.display-flex-container 
+                    <span class="css-code-bracket">{</span>
+                </p>
+                <p class="css-code-property">display
+                    <span class="css-code-colon">:</span>
+                    <span class="css-code-property-value">flex</span>
+                    <span class="css-code-semicolon">;</span>
+                </p>
+                <p class="css-code-property">justify-content
+                    <span class="css-code-colon">:</span>
+                    <span class="css-code-property-value">center</span>
+                    <span class="css-code-semicolon">;</span>
+                </p>
+                <p class="css-code-property">align-items
+                    <span class="css-code-colon">:</span>
+                    <span class="css-code-property-value">center</span>
+                    <span class="css-code-semicolon">;</span>
+                </p>
+                <br>
+                <p class="css-code-property" id="flexWrapProp">flex-direction
+                    <span class="css-code-colon">:</span>
+                    <span class="css-code-property-value" id="flexDirectionValue" contenteditable="true" spellcheck="false">row</span>
+                    <span class="css-code-semicolon">;</span>
+                </p>
+                <span class="css-code-bracket">}</span>
+            </div>
+        </div>
+        <div class="flex-items-container" id="itemsFlexDirection">
             <div class="flex-items">🍕</div>
             <div class="flex-items">🍔</div>
             <div class="flex-items">🍟</div>

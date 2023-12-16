@@ -1,5 +1,7 @@
 const flexWrap = document.querySelector("#flexWrapValue");
-const flexItemsContainer = document.querySelector(".flex-items-container");
+const flexDirection = document.querySelector("#flexDirectionValue");
+const itemsFlexWrap = document.querySelector("#itemsFlexWrap");
+const itemsFlexDirection = document.querySelector("#itemsFlexDirection");
 const typingSim = document.querySelector(".typing-simulator");
 
 flexWrap.addEventListener("keypress", (event) => {
@@ -9,8 +11,17 @@ flexWrap.addEventListener("keypress", (event) => {
     }
 })
 
-flexWrap.addEventListener("blur", () => {
-    flexItemsContainer.style.flexWrap = flexWrap.innerText;
+flexDirection.addEventListener("keypress", (event) => {
+    if (event.key == "Enter") {
+        event.preventDefault()
+        flexDirection.blur();
+    }
 })
 
-console.log("this is working")
+flexWrap.addEventListener("blur", () => {
+    itemsFlexWrap.style.flexWrap = flexWrap.innerText;
+})
+
+flexDirection.addEventListener("blur", () => {
+    itemsFlexDirection.style.flexDirection = flexDirection.innerText;
+})

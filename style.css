@@ -22,6 +22,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .guides-container {
@@ -146,6 +148,15 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.flex-items-container#itemsFlexWrap {
+    flex-wrap: nowrap;
+}
+
+.flex-items-container#itemsFlexDirection {
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flex-items {
