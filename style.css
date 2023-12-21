@@ -164,6 +164,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
+
+    transition: justify-content 2s;
 }
 
 .flex-items-container#itemsFlexWrap {
