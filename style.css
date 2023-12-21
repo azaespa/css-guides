@@ -47,6 +47,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    scale: 200%;
 }
 
 .guide-title-container {
@@ -182,10 +184,10 @@ body {
 }
 
 .flex-items {
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
-    font-size: 2.25rem;
+    font-size: 5rem;
     background-color: var(--primary);
 
     display: flex;
