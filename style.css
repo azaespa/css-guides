@@ -183,6 +183,12 @@ body {
     justify-content: flex-start;
 }
 
+.flex-items-container#itemsAlignItems {
+    align-items: flex-start;
+    height: 500px;
+    padding: 0;
+}
+
 .flex-items {
     width: 150px;
     height: 150px;
