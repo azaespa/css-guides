@@ -200,3 +200,39 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.css-code-property#flexOrderProp {
+    margin-left: 0;
+}
+
+.flex-items-container#itemsFlexOrder {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-order-number {
+    display: flex;
+    gap: 1rem;
+}
+
+.flex-order-number > div {
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: #fefae04f;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-order-items {
+    display: flex;  
+    gap: 1rem;
+}
+
+.flex-order-items > div {
+    font-size: 3rem;
+}
